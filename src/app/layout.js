@@ -11,7 +11,18 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <div className="fixed top-0 left-0 w-full z-10 bg-white shadow-md p-4">
+          <div className="flex items-center">
+            <img className="w-10 mr-2" src="img/logo-small.png" />
+            <p className="text-gray-700">PERGILOKA</p>
+          </div>
+        </div>
+        {children}
+
+        <script src="js/datepicker.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+      </body>
     </html>
   );
 }
