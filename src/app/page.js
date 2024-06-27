@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from 'react';
+import React, { useState } from 'react';
 
 export default function Home() {
   const [tipeTrip, setTipeTrip] = useState("one-way");
@@ -10,7 +10,7 @@ export default function Home() {
       <div className="w-[80%] mx-auto z-10 mt-[60px]">
         <h1 className="text-white text-center text-[40px] mb-5 z-10">Book Tiket Pesawat</h1>
         <div className="w-full rounded-xl shadow-lg bg-white p-6">
-          <form>
+          <form action='penerbangan'>
             <div className="grid grid-cols-12 gap-6">
               {/* <div className="col-span-12 flex">
                 <div>

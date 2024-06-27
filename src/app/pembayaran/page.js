@@ -6,7 +6,7 @@ export default function PemesananSum() {
     return (
         <LayoutCard title="Pilih Metode Pembayaran">
             <FlightSum />
-            <MetodePembayaran/>
+            <MetodePembayaran />
         </LayoutCard>
     );
 }

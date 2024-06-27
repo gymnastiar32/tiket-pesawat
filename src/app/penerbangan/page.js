@@ -6,7 +6,7 @@ export default function Penerbangan() {
     return (
         <LayoutCard title="Pilih Penerbangan">
             <FlightSidebar />
-            <FlightList/>
+            <FlightList />
         </LayoutCard>
     );
 }

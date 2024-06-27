@@ -1,3 +1,6 @@
+
+import Link from 'next/link';
+
 export default function MetodePembayaran() {
     return (
         <div className="col-span-12 lg:col-span-9">
@@ -73,7 +76,9 @@ export default function MetodePembayaran() {
             </div>
 
             <div className="flex flex-col items-end justify-center py-6">
-                <button className="flex items-center justify-center bg-indigo-600 text-white py-2 px-7 rounded-md hover:bg-indigo-700 active:shadow-inner">Bayar</button>
+                <Link href="/bayar">
+                    <button className="flex items-center justify-center bg-indigo-600 text-white py-2 px-7 rounded-md hover:bg-indigo-700 active:shadow-inner">Bayar</button>
+                </Link>
             </div>
         </div>
     )
