@@ -64,7 +64,7 @@ export default function Home() {
                         {/* <input datepicker="true" type="text" name="tanggal-berangkat" min="2024-06-24" className="block w-full border border-gray-200 appearance-none rounded-md py-2 pl-10 pr-2.5 focus:ring-2 focus:ring-indigo-400" placeholder="Select date" /> */}
                       </div>
                     </div>
-                    <div className={`w-full ml-4 ${tipeTrip == 'one-way' ? "hidden" : ""}`}>
+                    {/* <div className={`w-full ml-4 ${tipeTrip == 'one-way' ? "hidden" : ""}`}>
                       <label className="inline-block mb-2 text-md text-gray-500 " for="tanggal-pulang">Tanggal Pulang</label>
                       <div className="relative w-full">
                         <div className="absolute inset-y-0 start-0 flex items-center ps-3.5 pointer-events-none z-10">
@@ -73,9 +73,9 @@ export default function Home() {
                           </svg>
                         </div>
                         <input type="date" name="tanggal-pulang" className="block w-full border border-gray-200 appearance-none rounded-md py-2 pl-10 pr-2.5 focus:ring-2 focus:ring-indigo-400" placeholder="Select date" />
-                        {/* <input datepicker="true" type="text" name="tanggal-pulang" className="block w-full border border-gray-200 appearance-none rounded-md py-2 pl-10 pr-2.5 focus:ring-2 focus:ring-indigo-400" placeholder="Select date" /> */}
+                        <input datepicker="true" type="text" name="tanggal-pulang" className="block w-full border border-gray-200 appearance-none rounded-md py-2 pl-10 pr-2.5 focus:ring-2 focus:ring-indigo-400" placeholder="Select date" />
                       </div>
-                    </div>
+                    </div> */}
                   </div>
                   <div className="col-span-6">
                     <label className="inline-block mb-2 text-md text-gray-500 " for="kelas">Kelas</label>
@@ -87,7 +87,7 @@ export default function Home() {
                     </select>
                   </div>
                   <div className="col-span-12 text-center">
-                    <button className="ml-auto mr-auto flex items-center justify-center bg-indigo-500 text-white py-2 px-5 rounded-md hover:bg-indigo-700 active:shadow-inner">
+                    <button className="ml-auto mr-auto flex items-center justify-center bg-indigo-600 text-white py-2 px-5 rounded-md hover:bg-indigo-700 active:shadow-inner">
                       Cari
                       <svg className="ml-2 w-4 h-4 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
                         <path stroke="currentColor" strokeLinecap="round" strokeWidth="2" d="m21 21-3.5-3.5M17 10a7 7 0 1 1-14 0 7 7 0 0 1 14 0Z" />

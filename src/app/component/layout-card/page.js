@@ -1,7 +1,11 @@
-export default function LayoutCard({ title, children }) {
+export default function LayoutCard({ title, children, cardWidth }) {
+
+    if(cardWidth == undefined){
+        cardWidth = "";
+    }
     return (
         <main className="bg-image min-h-[100vh] p-24">
-            <div className="w-[80%] mx-auto z-10 mt-[60px]">
+            <div className={`w-[80%] mx-auto z-10 mt-[60px] ${cardWidth}`}>
                 <h1 className="text-white text-center text-[40px] mb-5 z-10">{title}</h1>
                 <div className="w-full rounded-xl shadow-lg bg-white p-6">
                     <div className="grid grid-cols-12 gap-6">

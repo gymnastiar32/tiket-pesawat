@@ -4,7 +4,7 @@ import FlightCard from "../flight-card/page";
 export default function FlightList() {
 
     return (
-        <div className="col-span-12 lg:col-span-9 p-3 border rounded-md">
+        <div className="col-span-12 lg:col-span-9">
             <div className="flex flex-col lg:flex-row gap-4 mb-6">
                 <div className="w-full cursor-pointer p-3.5 rounded-md border focus:ring-2 focus:ring-indigo-500">
                     <span className="block text-center text-indigo-500">Harga Terendah</span>
