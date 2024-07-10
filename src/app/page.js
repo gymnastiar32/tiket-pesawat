@@ -12,8 +12,8 @@ export default function Home() {
         <div className="w-full rounded-xl shadow-lg bg-white p-6">
           <form action='penerbangan'>
             <div className="grid grid-cols-12 gap-6">
-              {/* <div className="col-span-12 flex">
-                <div>
+              <div className="col-span-12 flex">
+                {/* <div>
                   <input type="radio" className="peer hidden" name="trip-type" id="one-trip" value="one-trip" checked={tipeTrip == "one-way"} onChange={() => setTipeTrip("one-way")} />
                   <label onClick={() => setTipeTrip("one-way")} className="mr-3 block cursor-pointer py-2 px-5 rounded-md bg-gray-100 hover:bg-gray-200 peer-checked:text-white peer-checked:bg-indigo-500" for="one-trip">
                     Sekali Jalan
@@ -24,13 +24,13 @@ export default function Home() {
                   <label onClick={() => setTipeTrip("round-trip")} className="mr-3 block cursor-pointer py-2 px-5 rounded-md bg-gray-100 hover:bg-gray-200 peer-checked:text-white peer-checked:bg-indigo-500" for="round-trip">
                     Pulang Pergi
                   </label>
-                </div>
+                </div> */}
                 <div className="ml-auto rounded-md p-2">
                   <label className="inline-block mr-2" for="jumlah-penumpang">Penumpang</label>
                   <input type="number" name="jumlah-penumpang" min={1} max={7} defaultValue="1" className="w-20 border border-gray-200 rounded-md appearance-none py-1 px-2.5 focus:ring-2 focus:ring-indigo-400" />
                 </div>
               </div>
-              <hr className="col-span-12" /> */}
+              <hr className="col-span-12" />
               <div className="col-span-12">
                 <div className="grid grid-cols-12 gap-4">
                   <div className="col-span-6">
